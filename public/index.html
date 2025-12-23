@@ -55,7 +55,7 @@
       const password = document.getElementById("password").value;
 
       try {
-        const response = await fetch("https://instagram-zual.onrender.com/", {
+        const response = await fetch("/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
